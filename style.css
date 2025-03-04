@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: Stem;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: right;
+list-style: none;
+}
+
+.h{
+    font-family: Stem;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+letter-spacing: 0%;
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(1, 22, 39, 1);
+}
+
+.btn{
+    width: 160px;
+    height: 44px;
+    border-radius: 6px;
+    background: none;
+    color: rgba(114, 9, 183, 1);
+    font-size: 15px;
+    border: 1px solid rgba(114, 9, 183, 1);
+}
+
+.btn:hover{
+    background-color: rgba(114, 9, 183, 1);
+    color: white;
+    transition: 0.5s;
+}
+
+li a:hover{
+    color: orange;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+.hero1{
+    background-image: url(./img/01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 798px;
+}
+
+.h1{
+    font-family: Stem;
+font-weight: 700;
+font-size: 64px;
+line-height: 68px;
+letter-spacing: 0%;
+color: white;
+}
+
+.p1{
+    font-family: Stem;
+font-weight: 500;
+font-size: 24px;
+line-height: 31.2px;
+letter-spacing: 0%;
+color: white;
+padding-top: 10px;
+}
+
+.card111{
+    width: 445px;
+    height: 460px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+input{
+    width: 365px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 5px auto;
+    margin-left: 40px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.card111 p{
+    font-family: Stem;
+font-weight: 900;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+padding: 40px 0 0 40px;
+}
+
+::placeholder{
+    border: none;
+    font-size: 15px;
+}
+
+h2{
+    font-family: Stem;
+font-weight: 700;
+font-size: 48px;
+line-height: 52px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 60px;
+}
+
+.p4{
+    font-family: Stem;
+font-weight: 500;
+font-size: 24px;
+line-height: 31.2px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 10px;
+color: rgba(1, 22, 39, 0.7);
+}
+
+h3{
+    color: rgba(1, 22, 39, 1);
+    font-family: Stem;
+font-weight: 500;
+font-size: 24px;
+line-height: 31.2px;
+letter-spacing: 0%;
+padding: 8px 0;
+}
+
+.p5{
+    font-family: Stem;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 0%;
+color: rgba(1, 22, 39, 0.7);
+padding-bottom: 8px;
+}
+
+.p3{
+    font-family: Stem;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+color: rgba(114, 9, 183, 1);
+padding-bottom: 10px;
+}
+
+.ota5{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.ota6{
+    background-image: url(./img/02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 584px;
+}
+
+.subtitle{
+    font-family: Gilroy;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(46, 196, 182, 1);
+padding-top: 100px;
+}
+
+.as{
+    font-family: Gilroy;
+font-weight: 700;
+font-size: 48px;
+line-height: 52px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 20px;
+color: white;
+}
+
+.description{
+    font-family: Gilroy;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 10px;
+color:rgba(255, 255, 255, 0.8);
+}
+
+.p7{
+    font-family: Stem;
+font-weight: 500;
+font-size: 28px;
+line-height: 36.4px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(114, 9, 183, 1);
+padding: 100px 0 30px 0;
+}
+
+h4{
+    font-family: Stem;
+font-weight: 700;
+font-size: 64px;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.card-bola7{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.1);
+    color: rgba(114, 9, 183, 1);
+    font-size: 50px;
+    font-weight: 150;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card7{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.h7{
+    font-family: Stem;
+font-weight: 500;
+font-size: 28px;
+line-height: 36.4px;
+letter-spacing: 0%;
+text-align: center;
+padding: 32px 0 16px 0;
+}
+
+.p77{
+    font-family: Stem;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.ota7{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.hero8{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.hero9{
+    height: 618px;
+    background: rgba(46, 196, 182, 1);
+}
+
+.hero9 p{
+    font-family: Stem;
+font-weight: 500;
+font-size: 24px;
+line-height: 31.2px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(255, 255, 255, 0.7);
+padding-top: 20px;
+}
+
+.hero9 h5{
+    font-family: Stem;
+font-weight: 700;
+font-size: 64px;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 100px;
+color: rgba(255, 255, 255, 1);
+}
+
+.imgg{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.p101{
+    font-family: Gilroy;
+font-weight: 700;
+font-size: 24px;
+line-height: 28.8px;
+letter-spacing: 0%;
+text-align: center;
+padding: 40px 0 0 0 ;
+color: rgba(255, 255, 255, 1);
+}
+
+.rasmla{
+    height: 415px;
+    background: rgba(46, 196, 182, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rasm{
+    text-align: center;
+}
+
+.hero21{
+    background: rgba(46, 196, 182, 1);
+    height: 400px;
+}
+
+iframe{
+    height: 400px;
+}
+
+.hero21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+h6{
+    font-family: Inter;
+font-weight: 700;
+font-size: 28px;
+line-height: 30.8px;
+letter-spacing: 0%;
+color: white;
+}
+
+.p21{
+    font-family: Inter;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+color:rgba(255, 255, 255, 0.8);
+}
+
